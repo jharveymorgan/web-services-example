@@ -18,6 +18,7 @@
 		BA67C1FB1D3878B1007AD748 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BA67C1F31D3878B1007AD748 /* AFURLRequestSerialization.m */; };
 		BA67C1FC1D3878B1007AD748 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BA67C1F51D3878B1007AD748 /* AFURLResponseSerialization.m */; };
 		BA67C1FD1D3878B1007AD748 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA67C1F71D3878B1007AD748 /* AFURLSessionManager.m */; };
+		BAFEC6461D444DDE00631917 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEC6451D444DDE00631917 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		BA67C1F61D3878B1007AD748 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		BA67C1F71D3878B1007AD748 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		BA67C1FE1D387A3A007AD748 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		BAFEC6451D444DDE00631917 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = AFNetworking/SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				BA67C1FE1D387A3A007AD748 /* bridge.h */,
+				BAFEC6451D444DDE00631917 /* SwiftyJSON.swift */,
 				BA67C1D71D386FF8007AD748 /* Web Service Example */,
 				BA67C1D61D386FF8007AD748 /* Products */,
 				BA67C1EA1D3878B1007AD748 /* AFNetworking */,
@@ -184,6 +187,7 @@
 				BA67C1DB1D386FF8007AD748 /* ViewController.swift in Sources */,
 				BA67C1FB1D3878B1007AD748 /* AFURLRequestSerialization.m in Sources */,
 				BA67C1F91D3878B1007AD748 /* AFNetworkReachabilityManager.m in Sources */,
+				BAFEC6461D444DDE00631917 /* SwiftyJSON.swift in Sources */,
 				BA67C1FC1D3878B1007AD748 /* AFURLResponseSerialization.m in Sources */,
 				BA67C1D91D386FF8007AD748 /* AppDelegate.swift in Sources */,
 			);
@@ -291,6 +295,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -306,6 +311,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jharveymorgan.Web-Service-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Debug;
 		};
@@ -319,6 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jharveymorgan.Web-Service-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
@@ -341,6 +348,7 @@
 				BA67C1E91D386FF8007AD748 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
