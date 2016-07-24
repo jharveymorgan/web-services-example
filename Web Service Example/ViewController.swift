@@ -16,6 +16,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        // get rid of placeholder text in the label
+        forecastLabel.text = ""
+        
+        // create a gray activity indicator to tell user the info is loading
+        let activityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: .Gray)
+        // add activity indicator to the view
+        view.addSubview(activityIndicatorView)
+        // center activity indicator
+        activityIndicatorView.center = view.center
+        // start animating the activity indicator when the screen loads
+        activityIndicatorView.startAnimating()
+        
+        
         // use AFNetworking to use weather service api
         let manager = AFHTTPSessionManager()
         // get data from OpenWeatherMap using the GET method
@@ -24,9 +37,12 @@ class ViewController: UIViewController {
                     progress: nil,
                     success: { (operation: NSURLSessionDataTask,responseObject: AnyObject?) in
                         if let responseObject = responseObject {
-                            print("Response: " + responseObject.description)
+                            // get rid of activity indicator
+                            activityIndicatorView.removeFromSuperview()
                             
-                            self.forecastLabel.morphingEffect = .Evaporate
+                            //print("Response: " + responseObject.description)
+                            
+                            self.forecastLabel.morphingEffect = .Scale
                             
                             // swiftyJSON way to access weather info from api
                             let json = JSON(responseObject)
@@ -44,6 +60,8 @@ class ViewController: UIViewController {
                                     }
                                 }
                             }
+                            // get rid of activity indicator
+                            //activityIndicatorView.removeFromSuperview()
                         }
             },
                     failure: { (operation: NSURLSessionDataTask?,error: NSError) in
