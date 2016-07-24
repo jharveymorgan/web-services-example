@@ -19,6 +19,24 @@
 		BA67C1FC1D3878B1007AD748 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BA67C1F51D3878B1007AD748 /* AFURLResponseSerialization.m */; };
 		BA67C1FD1D3878B1007AD748 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA67C1F71D3878B1007AD748 /* AFURLSessionManager.m */; };
 		BAFEC6461D444DDE00631917 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEC6451D444DDE00631917 /* SwiftyJSON.swift */; };
+		BAFEC73F1D445BF200631917 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAFEC7181D445BF200631917 /* Info.plist */; };
+		BAFEC7401D445BF200631917 /* LTCharacterDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEC7191D445BF200631917 /* LTCharacterDiffResult.swift */; };
+		BAFEC7411D445BF200631917 /* LTCharacterLimbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEC71A1D445BF200631917 /* LTCharacterLimbo.swift */; };
+		BAFEC7421D445BF200631917 /* LTEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEC71B1D445BF200631917 /* LTEasing.swift */; };
+		BAFEC7431D445BF200631917 /* LTEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEC71C1D445BF200631917 /* LTEmitterView.swift */; };
+		BAFEC7441D445BF200631917 /* LTMorphingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEC71D1D445BF200631917 /* LTMorphingEffect.swift */; };
+		BAFEC7451D445BF200631917 /* LTMorphingLabel+Anvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEC71E1D445BF200631917 /* LTMorphingLabel+Anvil.swift */; };
+		BAFEC7461D445BF200631917 /* LTMorphingLabel+Burn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEC71F1D445BF200631917 /* LTMorphingLabel+Burn.swift */; };
+		BAFEC7471D445BF200631917 /* LTMorphingLabel+Evaporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEC7201D445BF200631917 /* LTMorphingLabel+Evaporate.swift */; };
+		BAFEC7481D445BF200631917 /* LTMorphingLabel+Fall.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEC7211D445BF200631917 /* LTMorphingLabel+Fall.swift */; };
+		BAFEC7491D445BF200631917 /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEC7221D445BF200631917 /* LTMorphingLabel+Pixelate.swift */; };
+		BAFEC74A1D445BF200631917 /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEC7231D445BF200631917 /* LTMorphingLabel+Sparkle.swift */; };
+		BAFEC74B1D445BF200631917 /* LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEC7251D445BF200631917 /* LTMorphingLabel.swift */; };
+		BAFEC74C1D445BF200631917 /* LTStringDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEC7261D445BF200631917 /* LTStringDiffResult.swift */; };
+		BAFEC74D1D445BF200631917 /* Fire.png in Resources */ = {isa = PBXBuildFile; fileRef = BAFEC7281D445BF200631917 /* Fire.png */; };
+		BAFEC74E1D445BF200631917 /* Fragment.png in Resources */ = {isa = PBXBuildFile; fileRef = BAFEC7291D445BF200631917 /* Fragment.png */; };
+		BAFEC74F1D445BF200631917 /* Smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = BAFEC72A1D445BF200631917 /* Smoke.png */; };
+		BAFEC7501D445BF200631917 /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = BAFEC72B1D445BF200631917 /* Sparkle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +62,25 @@
 		BA67C1F71D3878B1007AD748 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		BA67C1FE1D387A3A007AD748 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
 		BAFEC6451D444DDE00631917 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = AFNetworking/SwiftyJSON.swift; sourceTree = "<group>"; };
+		BAFEC7181D445BF200631917 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAFEC7191D445BF200631917 /* LTCharacterDiffResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTCharacterDiffResult.swift; sourceTree = "<group>"; };
+		BAFEC71A1D445BF200631917 /* LTCharacterLimbo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTCharacterLimbo.swift; sourceTree = "<group>"; };
+		BAFEC71B1D445BF200631917 /* LTEasing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTEasing.swift; sourceTree = "<group>"; };
+		BAFEC71C1D445BF200631917 /* LTEmitterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTEmitterView.swift; sourceTree = "<group>"; };
+		BAFEC71D1D445BF200631917 /* LTMorphingEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMorphingEffect.swift; sourceTree = "<group>"; };
+		BAFEC71E1D445BF200631917 /* LTMorphingLabel+Anvil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Anvil.swift"; sourceTree = "<group>"; };
+		BAFEC71F1D445BF200631917 /* LTMorphingLabel+Burn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Burn.swift"; sourceTree = "<group>"; };
+		BAFEC7201D445BF200631917 /* LTMorphingLabel+Evaporate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Evaporate.swift"; sourceTree = "<group>"; };
+		BAFEC7211D445BF200631917 /* LTMorphingLabel+Fall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Fall.swift"; sourceTree = "<group>"; };
+		BAFEC7221D445BF200631917 /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; };
+		BAFEC7231D445BF200631917 /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; };
+		BAFEC7241D445BF200631917 /* LTMorphingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMorphingLabel.h; sourceTree = "<group>"; };
+		BAFEC7251D445BF200631917 /* LTMorphingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMorphingLabel.swift; sourceTree = "<group>"; };
+		BAFEC7261D445BF200631917 /* LTStringDiffResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTStringDiffResult.swift; sourceTree = "<group>"; };
+		BAFEC7281D445BF200631917 /* Fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fire.png; sourceTree = "<group>"; };
+		BAFEC7291D445BF200631917 /* Fragment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fragment.png; sourceTree = "<group>"; };
+		BAFEC72A1D445BF200631917 /* Smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smoke.png; sourceTree = "<group>"; };
+		BAFEC72B1D445BF200631917 /* Sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sparkle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +99,7 @@
 			children = (
 				BA67C1FE1D387A3A007AD748 /* bridge.h */,
 				BAFEC6451D444DDE00631917 /* SwiftyJSON.swift */,
+				BAFEC7171D445BF200631917 /* LTMorphingLabel */,
 				BA67C1D71D386FF8007AD748 /* Web Service Example */,
 				BA67C1D61D386FF8007AD748 /* Products */,
 				BA67C1EA1D3878B1007AD748 /* AFNetworking */,
@@ -107,6 +145,41 @@
 				BA67C1F71D3878B1007AD748 /* AFURLSessionManager.m */,
 			);
 			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		BAFEC7171D445BF200631917 /* LTMorphingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				BAFEC7181D445BF200631917 /* Info.plist */,
+				BAFEC7191D445BF200631917 /* LTCharacterDiffResult.swift */,
+				BAFEC71A1D445BF200631917 /* LTCharacterLimbo.swift */,
+				BAFEC71B1D445BF200631917 /* LTEasing.swift */,
+				BAFEC71C1D445BF200631917 /* LTEmitterView.swift */,
+				BAFEC71D1D445BF200631917 /* LTMorphingEffect.swift */,
+				BAFEC71E1D445BF200631917 /* LTMorphingLabel+Anvil.swift */,
+				BAFEC71F1D445BF200631917 /* LTMorphingLabel+Burn.swift */,
+				BAFEC7201D445BF200631917 /* LTMorphingLabel+Evaporate.swift */,
+				BAFEC7211D445BF200631917 /* LTMorphingLabel+Fall.swift */,
+				BAFEC7221D445BF200631917 /* LTMorphingLabel+Pixelate.swift */,
+				BAFEC7231D445BF200631917 /* LTMorphingLabel+Sparkle.swift */,
+				BAFEC7241D445BF200631917 /* LTMorphingLabel.h */,
+				BAFEC7251D445BF200631917 /* LTMorphingLabel.swift */,
+				BAFEC7261D445BF200631917 /* LTStringDiffResult.swift */,
+				BAFEC7271D445BF200631917 /* Particles */,
+			);
+			name = LTMorphingLabel;
+			path = "LTMorphingLabel-master/LTMorphingLabel";
+			sourceTree = "<group>";
+		};
+		BAFEC7271D445BF200631917 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				BAFEC7281D445BF200631917 /* Fire.png */,
+				BAFEC7291D445BF200631917 /* Fragment.png */,
+				BAFEC72A1D445BF200631917 /* Smoke.png */,
+				BAFEC72B1D445BF200631917 /* Sparkle.png */,
+			);
+			path = Particles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAFEC7501D445BF200631917 /* Sparkle.png in Resources */,
+				BAFEC74D1D445BF200631917 /* Fire.png in Resources */,
+				BAFEC73F1D445BF200631917 /* Info.plist in Resources */,
+				BAFEC74F1D445BF200631917 /* Smoke.png in Resources */,
+				BAFEC74E1D445BF200631917 /* Fragment.png in Resources */,
 				BA67C1E31D386FF8007AD748 /* LaunchScreen.storyboard in Resources */,
 				BA67C1E01D386FF8007AD748 /* Assets.xcassets in Resources */,
 				BA67C1DE1D386FF8007AD748 /* Main.storyboard in Resources */,
@@ -181,15 +259,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAFEC7441D445BF200631917 /* LTMorphingEffect.swift in Sources */,
+				BAFEC74B1D445BF200631917 /* LTMorphingLabel.swift in Sources */,
+				BAFEC7411D445BF200631917 /* LTCharacterLimbo.swift in Sources */,
+				BAFEC7471D445BF200631917 /* LTMorphingLabel+Evaporate.swift in Sources */,
 				BA67C1F81D3878B1007AD748 /* AFHTTPSessionManager.m in Sources */,
 				BA67C1FD1D3878B1007AD748 /* AFURLSessionManager.m in Sources */,
+				BAFEC74C1D445BF200631917 /* LTStringDiffResult.swift in Sources */,
 				BA67C1FA1D3878B1007AD748 /* AFSecurityPolicy.m in Sources */,
+				BAFEC7401D445BF200631917 /* LTCharacterDiffResult.swift in Sources */,
+				BAFEC7481D445BF200631917 /* LTMorphingLabel+Fall.swift in Sources */,
 				BA67C1DB1D386FF8007AD748 /* ViewController.swift in Sources */,
 				BA67C1FB1D3878B1007AD748 /* AFURLRequestSerialization.m in Sources */,
+				BAFEC7431D445BF200631917 /* LTEmitterView.swift in Sources */,
 				BA67C1F91D3878B1007AD748 /* AFNetworkReachabilityManager.m in Sources */,
+				BAFEC7421D445BF200631917 /* LTEasing.swift in Sources */,
+				BAFEC74A1D445BF200631917 /* LTMorphingLabel+Sparkle.swift in Sources */,
+				BAFEC7491D445BF200631917 /* LTMorphingLabel+Pixelate.swift in Sources */,
+				BAFEC7461D445BF200631917 /* LTMorphingLabel+Burn.swift in Sources */,
 				BAFEC6461D444DDE00631917 /* SwiftyJSON.swift in Sources */,
 				BA67C1FC1D3878B1007AD748 /* AFURLResponseSerialization.m in Sources */,
 				BA67C1D91D386FF8007AD748 /* AppDelegate.swift in Sources */,
+				BAFEC7451D445BF200631917 /* LTMorphingLabel+Anvil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

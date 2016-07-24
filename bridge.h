@@ -10,5 +10,6 @@
 #define bridge_h
 
 #import "AFNetworking/AFNetworking.h"
+#import "LTMorphingLabel-master/LTMorphingLabel/LTMorphingLabel.h"
 
 #endif /* bridge_h */
